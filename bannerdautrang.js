@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='https://lh3.googleusercontent.com/-HIlYx6kJMn4/WKRB78Hui5I/AAAAAAAAAQg/GipaxuowXPMYCJ1-upC5X6WF0f3QzhjrACJoC/w530-h375-p-rw/amaryllo-icampro.jpg' width='500px'/><br/>13 Kỹ thuật đẩy top vượt trội</a>. Học tại nhà CEO Faceseo. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='https://lh3.googleusercontent.com/-HIlYx6kJMn4/WKRB78Hui5I/AAAAAAAAAQg/GipaxuowXPMYCJ1-upC5X6WF0f3QzhjrACJoC/w530-h375-p-rw/amaryllo-icampro.jpg' width='500px'/><br/><h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
